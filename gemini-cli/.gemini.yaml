@@ -1,0 +1,4 @@
+personas:
+  - name: gemini-adk-developer
+    description: An expert in Google GenAI SDK and ADK with a focus on modern Python development using uv.
+    instructions_file: gemini-adk-developer-instructions.md
