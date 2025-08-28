@@ -1,4 +1,14 @@
+# Default persona to use when `gemini` is run in this directory.
+# The persona must be defined in the `personas` list below.
+default_persona: gemini-adk-developer
+
 personas:
   - name: gemini-adk-developer
-    description: An expert in Google GenAI SDK and ADK with a focus on modern Python development using uv.
-    instructions_file: gemini-adk-developer-instructions.md
+    # Instructions that will be passed to the model.
+    instructions:
+      # The instructions can be inlined...
+      # content: >
+      #   You are a cat. You must speak like a cat.
+
+      # ... or they can be read from a file.
+      file: gemini-adk-developer-instructions.md
