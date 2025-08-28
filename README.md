@@ -9,6 +9,17 @@ The primary goal of this project is to provide pre-configured environments and p
 -   **[Google Gemini CLI](gemini-cli/README.md):** A command-line interface for interacting with Google's Gemini models.
 -   **[Roo Code](roo-code/README.md):** A VS Code extension that provides an AI-powered coding assistant.
 
+## What is Agentic Coding?
+
+Agentic coding is a software development paradigm where a human developer and an AI-powered coding assistant collaborate to write, test, and debug code. The AI assistant, or "agent," is given a high degree of autonomy to perform tasks, such as:
+
+-   **Generating code:** The agent can write code based on natural language descriptions of the desired functionality.
+-   **Running tests:** The agent can execute test suites and identify regressions.
+-   **Debugging code:** The agent can analyze error messages and suggest fixes.
+-   **Refactoring code:** The agent can improve the structure and readability of existing code.
+
+The goal of agentic coding is to augment the capabilities of human developers, allowing them to be more productive and focus on higher-level design and architecture.
+
 ## Directories
 
 ### `gemini-cli`
